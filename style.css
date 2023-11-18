@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+.myNav {
+  min-height: 80px;
+  background-color: rgb(208, 178, 140) !important;
+}
+
+main {
+  background-image: url(images/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background: rgb(208, 178, 140);
+  min-height: 60px;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+}
